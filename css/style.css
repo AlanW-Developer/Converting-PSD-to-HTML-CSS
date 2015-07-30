@@ -1,0 +1,222 @@
+
+/*
+*****************
+* =miscellaneous
+*****************
+*/
+
+.container_24{
+	margin-top: 10px;
+}
+
+blockquote{
+	position: relative;
+}
+blockquote, blockquote p{
+	font-size: 15px;
+	line-height: 20px;
+	font-style: italic;
+	padding-left: 10px;
+}
+
+.main blockquote p:before,
+.main blockquote p:after{
+	font-size: 40px;
+	color:#bfbfbf;
+	font-style: italic;
+}
+.main blockquote p:first-child:before{
+	content: '“';
+	position: absolute;
+	top: 7px;
+	left: 0;
+}
+.main blockquote p:last-child:after{
+	content: '”';
+	position: absolute;
+	bottom: -7px;
+	right: 0;
+}
+p{
+	font-size: 13px;
+	line-height: 20px;
+	color: #353535;
+	white-space: pre-line;
+}
+a{
+	color:#7e7e7e;
+	text-decoration: none;
+
+	
+}
+
+a:hover, .selected{
+	color:black;
+	cursor:pointer;
+}
+
+/*
+*****************
+* =header
+*****************
+*/
+
+header{
+	overflow:hidden;
+	
+	
+}
+
+header h1{
+	text-indent: -9999px;
+	margin: 0 0 0 5px;
+	overflow:hidden;
+	float: left;
+	
+}
+
+header h1 a{
+	background: url(../img/logo.png) no-repeat;
+	width: 174px;
+	height: 23px;
+	float:left;	
+}
+.banner{
+	position: relative;
+}
+
+.banner h2{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 28px;
+	color: white;
+	width: 400px;
+	font-weight: normal;
+	position: absolute;
+	bottom: 0;
+	left: 8px;
+	padding: 0 8px;
+	background: rgba(0,0,0, 0.5);
+	text-transform: lowercase;
+}
+/*
+*****************
+*  =nav
+*****************
+*/
+
+nav{
+	float:right;
+	color: #7e7e7e;
+	margin: 5px 25px 0px 0px;
+	 
+	
+}
+
+nav li{
+	display: inline;
+	margin-left: 24px;
+}
+
+nav a{
+	color: #7e7e7e;
+	text-transform: lowercase;
+	
+}
+/*
+*****************
+* =banner{
+*****************
+*/
+
+.box{
+	width: 695px;
+	height: 231px;
+}
+
+.banner{
+	background: url(../img/city-bg.jpg) no-repeat;
+	width: 695px;
+	height: 231px;
+	clear:both;
+}
+
+.callout{
+	background: black;
+	height: 231px;
+}
+
+/*
+*****************
+* =work
+*****************
+*/
+
+
+
+.work{
+	margin: 0px;
+}
+
+.work h4{
+	border-bottom: 1px solid #d1d1d1;
+	width: 450px;
+}
+
+.work h3{
+	border-bottom: 0px;
+}
+
+/*
+*****************
+* =main
+*****************
+*/
+
+h3{
+	font-size:26px;
+	text-transform: lowercase;
+	letter-spacing:-1px;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 1em;
+	border-bottom: 1px solid #d1d1d1;
+	
+}
+
+
+.main{
+	padding-bottom: 25px;
+	margin: 20px 0 0 5px;
+	float:left;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+
+.button{
+	background: #242324;
+	color: white;
+	padding: 6px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.button:hover{
+	color:#f7f7f7;
+}
+
+.grid_9{
+	margin:0;
+}
+
+/*
+*****************
+* =footer
+*****************
+*/
+
+footer{
+	clear:both;
+	margin-bottom:20px;
+}
+
+
